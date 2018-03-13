@@ -1,0 +1,446 @@
+body {
+    margin: 0px;
+}
+#home {
+    background-image: url(SVG/Asset%205.svg);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    z-index: -3;
+}
+#calander {
+    position: absolute;
+    top: 300px;
+    height: 50px;
+    width: 90px;
+    left: 1100px;
+    z-index: 3;
+    margin: 0px;
+}
+
+#sun {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    z-index: -2;
+    padding: 0px;
+}
+
+
+#rock {
+    position: fixed;
+    height: 200px;
+    width: 100px;
+    top: 700px;
+    left: 50px;
+}
+
+#cloud {
+    position: fixed;
+    width: 400px;
+    height: 300px;
+    left: 200px;
+    bottom: 350px;
+}
+
+#rabbit1 {
+    position: fixed;
+    height: 100px;
+    width: 95px;
+    left: 200px;
+    top: 550px;
+    z-index: 0;
+    animation: .8s infinite beatHeart;
+    margin: 5em;
+}
+    
+}
+
+@keyframes beatHeart {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.1);
+  }
+  40% {
+    transform: scale(1);
+  }
+  60% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+#rabbit2 {
+    position: fixed;
+     height: 100px;
+    width: 95px;
+    left: 500px;
+    top: 500px;
+    z-index: 0;
+    
+}
+
+#rabbit2:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s; 
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite; 
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+#rabbit3 {
+    position: absolute;
+    height: 100px;
+    width: 95px;
+    left: 900px;
+    top: 550px;
+    z-index: 0;
+}
+
+#HideenRabbit {
+    position: absolute;
+    display: none;
+    width: 90px;
+    height: 90px;
+    z-index: 0;
+    left: 1090px;
+    bottom: 555px;
+}
+
+#egg1 {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: 100px;
+    z-index: 0;
+    display: none;
+    padding: 0px;
+}
+
+#egg2 {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: 100px;
+    z-index: 0;
+    display: none;
+}
+
+#egg3 {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: 100px;
+    z-index: 0;
+    display: none;
+}
+
+#egg4 {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: 100px;
+    z-index: 0;
+    display: none;
+}
+
+#egg5 {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    bottom: 100px;
+    z-index: 0;
+    display: none;
+}
+
+#egg6 {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    right: 300px;
+    z-index: 0;
+    display: none;
+}
+
+#egg7 {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 800px;
+    z-index: 0;
+    display: none;
+}
+
+#egg8 {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    bottom: 200px;
+    z-index: 0;
+    display: none;
+}
+
+#egg9 {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 500px;
+    z-index: 0;
+    display: none;
+}
+
+#egg10 {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 100px;
+    z-index: 0;
+    display: none;
+}
+
+#trees {
+    position: relative;
+    height: 100px;
+    width: 900px;
+    top: 220px;
+    z-index: -1;
+       
+}
+
+#clicktree {
+    position: relative;
+    height: 100px;
+    width: 90px;
+    z-index: -1;
+    left: 450px;
+    top: 65px;
+}
+
+#clicktree:hover {
+    animation: shake 0.5s; 
+    animation-iteration-count: infinite; 
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+#clickcloud {
+    position: relative;
+    height: 200px;
+    width: 250px;
+    z-index: 0;
+    bottom: 300px;
+    left: 600px;
+    
+}
+
+#basket {
+    position: relative;
+    height: 100px;
+    width: 150px;
+    z-index: 0;
+    left: 650px;
+}
+
+#basket:hover {
+    animation: shake 0.5s; 
+    animation-iteration-count: infinite; 
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+#hole {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    z-index: 0;
+    left: 1100px;
+    bottom: 300px;
+}
+
+#flower {
+    position: relative;
+    height: 90px;
+    width: 95px;
+    z-index: -1;
+    left: 1100px;
+    bottom: 380px;
+    display: none;
+}
+    
+.Fact {
+    width: 40vw;
+    height: 20vw;
+    background-color: floralwhite;
+    z-index: 0;
+    margin: auto;
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+    color: black;
+    border-radius: 6px;
+    left: 0px;
+    right: 0px;
+    cursor: pointer;
+    display: none;
+    border-top: 3px dotted #e5e5e5;
+	border-bottom: 3px dotted #e5e5e5;
+	box-shadow: inset 0 -1px 0 0 #e5e5e5, inset 0 1px 0 0 #e5e5e5, 0 1px 0 0 #e5e5e5, 0 -1px 0 0 #e5e5e5;
+	margin-bottom: 1px;
+}
+
+#fact1 {
+    display: none;
+    top: 250px;
+    padding-top: 20px;
+    height: 150px;
+    z-index: 3;
+    font-family: 'Pacifico', cursive;
+}
+
+
+
+#fact2 {
+    top: 250px;
+    font-size: 16pt;
+    display: none;
+    padding-top: 10px;
+    height: 150px;
+    z-index: 3;
+    font-family: 'Pacifico', cursive;
+}
+
+#fact3 {
+    top: 250px;
+    font-size: 1.8em;
+    display: none;
+    padding-top: 10px;
+    height: 180px;
+    font-family: 'Pacifico', cursive;
+}
+
+#fact4 {
+    top: 250px;
+    font-size: 1.8em;
+    display: none;
+    padding-top: 10px;
+    height:  180px;
+    font-family: 'Pacifico', cursive;
+}
+
+#fact5 {
+    top: 250px;
+    font-size: 1.8em;
+    display: none;
+    padding-top: 10px;
+    height: 230px;
+    font-family: 'Pacifico', cursive;
+}
+
+#fact6 {
+    top: 250px;
+    display: none;
+    font-size: 16px;
+    height: 150px;
+    font-family: 'Pacifico', cursive;
+}
+
+#fact7 {
+    top: 250px;
+    font-size: 1.8em;
+    display: none;
+    height: 180px;
+    font-family: 'Pacifico', cursive;
+}
+
+#fact8 {
+    top: 250px;
+    font-size: 1.8em;
+    display: none;
+    padding-top: 10px;
+    font-family: 'Pacifico', cursive;
+}
+
+#fact9 {
+    top: 250px;
+    font-size: 1.8em;
+    display: none;
+    padding-top: 10px;
+    height: 250px;
+    font-family: 'Pacifico', cursive;
+}
+
+#fact10 {
+    top: 250px;
+    font-size: 1.8em;
+    display: none;
+    padding-top: 10px;
+    font-family: 'Pacifico', cursive;
+
+}
+
+#angel {
+    position: absolute;
+    height: 200px;
+    width: 85px;
+    z-index: -1;
+    left: 1300px;
+    top: 450px;
+    -webkit-animation: fadeinout 5s linear forwards;
+    animation: fadeinout 5s linear forwards;
+}
+
+#angel {
+    opacity: 1;
+    animation: fade 2s linear;
+}
+
+
+@keyframes fade {
+  0%,100% { opacity: 0 }
+  50% { opacity: 1 }
+}
+
+
+
